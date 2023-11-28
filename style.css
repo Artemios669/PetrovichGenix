@@ -1,0 +1,229 @@
+@font-face {
+	font-family: 'Morpha'; 
+	src: local('Morpha'),
+		url(/MyWebProject/Morpha.otf); 
+}
+
+body
+{
+    background: rgb(195, 113, 113);
+}
+
+.square {
+    z-index: -2;
+    position: absolute;
+    top: 140px;
+	width: 320px;
+	height: 320px;
+	background: rgba(227, 255, 116, 1);
+}
+
+.triangle {
+    z-index: -2;
+    position: absolute;
+    top: 600px;
+    left: -100px;
+	width: 0;
+	height: 0;
+	border-top: 150px solid transparent;
+	border-right: 250px solid rgba(164, 255, 149, 1);
+	border-bottom: 150px solid transparent;
+}
+
+
+.circle {
+    z-index: -2;
+	width: 300px;
+	height: 300px;
+    position: absolute;
+    top: 476px;
+    left: 410px;
+	background: rgba(255, 130, 130, 1);
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+}
+
+.panel
+{
+    z-index: -1;
+
+    width: 1920px;
+    height: 150px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    background: rgba(125, 137, 122, 0.3);
+    backdrop-filter: blur(20px);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+menu
+{
+    list-style-type: none;
+    padding-left: 0;    
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a
+{
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+    font-family: Morpha;
+    font-size: 2.5rem;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: rgb(103, 182, 114);
+    border-bottom: 3px solid rgb(67, 92, 64);
+    border-radius: 20em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu li
+{
+    display: flex;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 6.5rem;
+    font-family: 'Morpha', sans-serif;
+
+}
+
+h1
+{
+    font-family: 'Morpha', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4
+{
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15%;
+}
+
+button
+{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 2rem;
+    appearance: none;
+    background-color: rgba(164, 255, 149, 1);
+    border: 0px solid rgba(164, 255, 149, 1);
+    border-bottom: 4px solid rgb(118, 210, 104);
+    border-radius: 20em;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Morpha;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 20px 40px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reg
+{
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+}
+
+.text-field__input {
+    margin-bottom: 2rem;
+    display: block;
+    width: 500px;
+    height: 60px;
+    padding: 0.375rem 0.75rem;
+    font-family: Morpha;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid #ffffff;
+    border-radius: 20em;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+.Center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#rounding
+{
+    border-radius: 20em;
+}
+
+.header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+
+    border-radius: 7em;
+    background: rgba(133, 255, 102, 0.3);
+    border-bottom: 3px solid rgb(118, 210, 104);
+    backdrop-filter: blur(20px);
+}
